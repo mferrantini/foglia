@@ -1,8 +1,3 @@
-@GREEN: #334618;
-@GREY: #ADADAD;
-
-@ORANGE: #FB8F4F;
-
 html {
     body {
         * {
@@ -22,13 +17,20 @@ html {
         }
 
         p {
-            color: @GREY;
+            color: #ADADAD;
         }
 
         a {
             &, &:active, &:visited {
-                color: @ORANGE;
+                color: #fb8f4f;
             }      
+        }
+
+        .sub-logo {
+            font-weight: 700;
+            font-size: 25px;
+
+            color: #334618;
         }
 
         .stripe {
@@ -48,13 +50,6 @@ html {
             &.bottom {
                 bottom: 0;
             }
-        }
-
-        .sub-logo {
-            font-weight: 700;
-            font-size: 25px;
-
-            color: @GREEN;
         }
 
         @media screen and (min-width: 600px) {
