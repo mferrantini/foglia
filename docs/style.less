@@ -1,0 +1,88 @@
+@GREEN: #334618;
+@GREY: #ADADAD;
+
+@ORANGE: #FB8F4F;
+
+html {
+    body {
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+
+        & > .container {
+            position: absolute;
+            top: 50%;
+
+            transform: translateY(-50%);
+            margin: 0 auto;
+        }
+
+        img {
+            width: 150px;
+        }
+
+        p {
+            color: @GREY;
+        }
+
+        a {
+            &, &:active, &:visited {
+                color: @ORANGE;
+            }      
+        }
+
+        .stripe {
+            position: absolute;
+            left: 0;
+
+            height: 30px;
+            width: 100%;
+
+            background-image: linear-gradient(135deg, #69daad 12.50%, #fb8f4f 12.50%, #fb8f4f 25%, #fdc050 25%, #fdc050 37.50%, #9ed74a 37.50%, #9ed74a 50%, #69daad 50%, #69daad 62.50%, #fb8f4f 62.50%, #fb8f4f 75%, #fdc050 75%, #fdc050 87.50%, #9ed74a 87.50%, #9ed74a 100%);
+            background-size: 169.71px 169.71px;
+
+            &.top {
+                top: 0;
+            }
+
+            &.bottom {
+                bottom: 0;
+            }
+        }
+
+        .sub-logo {
+            font-weight: 700;
+            font-size: 25px;
+
+            color: @GREEN;
+        }
+
+        @media screen and (min-width: 600px) {
+            img {
+                width: 150px;
+            }
+
+            .sub-logo {
+                font-size: 25px;
+            }
+            
+            .stripe {
+                height: 50px;
+            }
+        }
+
+        @media screen and (min-width: 960px) {
+            img {
+                width: 220px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .sub-logo {
+                font-size: 35px;
+            }
+        }
+    }
+}
