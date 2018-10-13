@@ -4,9 +4,15 @@ Foglia is a project born in occasion of the Maker Faire Rome - The European Edit
 version was a small Ikea greenhouse with a whole set of sensors and probes installed using 3D printed 
 supports and adapters. The development platform is RaspberryPi.
 
+
 ## Getting Started
 
-Get started using examples and code snippets.
+### 3D Components
+All 3D printable parts for Foglia projects are available [here](/projects).
+
+### Code
+Examples and code snippets are available [here](/examples).
+
 
 # Contributing
 
