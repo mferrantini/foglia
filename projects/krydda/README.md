@@ -1,3 +1,3 @@
 # Foglia.io - KRYDDA
 
-Later on this page
+Sorry, we are still updating parts description.
